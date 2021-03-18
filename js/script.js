@@ -16,7 +16,7 @@ $(".lista").on("click", ".delete__item", function(){
     $(this).parent().remove();
 });
 
-// inserisco elemento da input
+// inserisco elemento da input con keypress
 
 $("#ins__item").keypress(function(e){
     if ( e.which == 13 ){
